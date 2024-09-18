@@ -273,6 +273,14 @@ nav h1 {
 
 .acceptButton:hover {
     background-color: #9173ff;
+
     box-shadow: 0 10px 15px -3px #977ef3, 0 4px 6px -2px #977ef3;
     transition-duration: .2s;
 }
+.card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
