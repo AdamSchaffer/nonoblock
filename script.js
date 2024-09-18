@@ -11,3 +11,6 @@ input.addEventListener('input', () => {
     }
   });
 });
+document.querySelector('.acceptButton').addEventListener('click', function() {
+    document.querySelector('.card').classList.add('hidden');
+});
